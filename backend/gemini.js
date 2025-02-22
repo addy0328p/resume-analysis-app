@@ -61,8 +61,8 @@ Output JSON format should be:
 
      
       // Remove surrounding """ and extra spaces
-      const cleanedString = responseString.trim().replace(/^json|$/g, '');
-      
+      const cleanedString = responseString.trim().replace(/^```json|```$/g, '');
+
       // Parse the cleaned string into JSON
       const finalResponse = JSON.parse(cleanedString);
 
