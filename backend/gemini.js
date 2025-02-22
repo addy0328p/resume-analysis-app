@@ -20,7 +20,7 @@ console.log(pdfData);
 
 const prompt = `
 Convert the following resume text into a structured JSON format.
-do not give ${"```"} json  ${"```"} directly give the json format only
+ 
 
 Resume Text:
 """
